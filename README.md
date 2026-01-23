@@ -7,8 +7,15 @@ Part A: Understanding the App
 1. App Overview
 	•	What problem does this app solve?
 WhatsApp solves the problem of fast, reliable and affordable communication between people regardless of distance over the internet.
-	•	Who are the primary users of the app?
-Friends, Families, Groups(students, communities, work teams), Businesses.
+
+WhatsApp is an alternative to traditional communication methods such as SMS and international phone calls are:
+	 •	Expensive
+	 •	Limited in features
+	 •	Dependent on telecom networks rather than the internet
+
+Who are the primary users of the app?
+Friends, Families, Groups(students, communities, work teams) and Businesses.
+
 3. Core Features
 	•	Phone-based registeration and login 
 	•	Text messaging and voice notes(1:1 chats and group chats)
@@ -16,9 +23,9 @@ Friends, Families, Groups(students, communities, work teams), Businesses.
 	•	Media sharinh(Images, videos, documents)
 	•	Status updates
 	•	Notifications
-  • Search 
+ • Privacy and Security features such as end-to-end encryption, two-step verification, hiding last seen, profile picture and read receipts.
 
-Part B: Thinking Behind the 
+Part B: Thinking Behind the Scenes 
 
 Feature:
 	•	What user interface (UI) components are involved?
@@ -30,7 +37,7 @@ Feature:
 
 Part C: Change and Maintainability
 
-Chosen Chang:
+Chosen Change:
 
 1. Parts of the App That Would Need Changes
 	•	Which components or layers of the app would be affected?
