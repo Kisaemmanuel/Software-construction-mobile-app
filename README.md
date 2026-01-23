@@ -27,13 +27,53 @@ Friends, Families, Groups(students, communities, work teams) and Businesses.
 
 Part B: Thinking Behind the Scenes 
 
-Feature:
-	•	What user interface (UI) components are involved?
-	•	What business logic is likely involved?
-	•	What network or API interactions are required?
-	•	What data is stored, and where?
-	•	Does this feature require internet connectivity? Why?
-	•	What happens if the network is slow or unavailable?
+1. User Registration & Authentication
+UI: Phone number input screens, OTP entry screen
+Business Logic: User verification, session management
+Network / APIs: SMS/OTP verification services, authentication servers
+Data Storage: User profiles, device identifiers
+Internet Required: Yes
+If network is slow/unavailable: OTP delays, login failure
+
+2. One-to-One Messaging
+UI: Chat screen, message bubbles
+Business Logic: Message formatting, encryption/decryption
+Network / APIs: Message delivery servers
+Data Storage: Message history (local + server backup metadata)
+Internet Required: Yes (except viewing cached messages)
+If network is slow/unavailable: Messages stay pending or unsent
+
+3. Voice & Video Calls
+UI: Call screens, call controls
+Business Logic: Call setup, encryption, call state handling
+Network / APIs: Real-time communication servers
+Data Storage: Call logs (metadata only)
+Internet Required: Yes (strong connection)
+If network is slow/unavailable: Call drops, poor audio/video quality
+
+4. Media Sharing
+UI: Gallery picker, preview screens
+Business Logic: Compression, encryption
+Network / APIs: Media upload/download servers
+Data Storage: Media files 
+Internet Required: Yes
+If network is slow/unavailable: Upload/download delays or failures
+
+5. Notifications
+UI: Notification banners, badges
+Business Logic: Message prioritization
+Network / APIs: Push notification services
+Data Storage: Notification state
+Internet Required: Yes
+If network is slow/unavailable: Late or missing notifications
+
+6. Status Updates
+UI: Status viewer screen, progress indicators, privacy settings
+Business Logic: Status expiration (24 hours), privacy controls (who can view)
+Network / APIs: Media upload/download servers, contact synchronization services
+Data Storage: Status media files, timestamps, viewer metadata
+Internet Required: Yes
+If network is slow/unavailable: Status uploads may fail, viewing may be delayed or unavailable
 
 Part C: Change and Maintainability
 
