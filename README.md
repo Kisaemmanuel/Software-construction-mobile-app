@@ -25,76 +25,81 @@ Friends, Families, Groups(students, communities, work teams) and Businesses.
 	•	Notifications
  • Privacy and Security features such as end-to-end encryption, two-step verification, hiding last seen.
 
-Part B: Thinking Behind the Scenes 
+## Part B: Thinking Behind the Scenes
 
-1. User Registration & Authentication
-   
-UI: Phone number input screens, OTP entry screen
-Business Logic: User verification, session management
-Network / APIs: SMS/OTP verification services, authentication servers
-Data Storage: User profiles, device identifiers
-Is Internet Required: Yes
-If network is slow/unavailable: OTP delays, login failure
+This section explains what happens behind the scenes for key WhatsApp features, focusing on UI, logic, networking, and data handling.
 
-2. One-to-One Messaging
-   
-UI: Chat screen, message bubbles
-Business Logic: Message formatting, encryption/decryption
-Network / APIs: Message delivery servers
-Data Storage: Message history (local + server backup metadata)
-Is Internet Required: Yes (except viewing cached messages)
-If network is slow/unavailable: Messages stay pending or unsent
+---
 
-3. Voice & Video Calls
-   
-UI: Call screens, call controls
-Business Logic: Call setup, encryption, call state handling
-Network / APIs: Real-time communication servers
-Data Storage: Call logs (metadata only)
-Is Internet Required: Yes (strong connection)
-If network is slow/unavailable: Call drops, poor audio/video quality
+### 1. User Registration & Authentication
+- **UI:** Phone number input screens, OTP entry screen  
+- **Business Logic:** User verification, OTP validation, session management  
+- **Network / APIs:** SMS/OTP verification services, authentication servers  
+- **Data Storage:** User profiles, device identifiers  
+- **Internet Required:** Yes  
+- **If network is slow/unavailable:** OTP delays, login failure  
 
-4. Media Sharing
-   
-UI: Gallery picker, preview screens
-Business Logic: Compression, encryption
-Network / APIs: Media upload/download servers
-Data Storage: Media files 
-Is Internet Required: Yes
-If network is slow/unavailable: Upload/download delays or failures
+---
 
-5. Notifications
-   
-UI: Notification banners, badges
-Business Logic: Message prioritization
-Network / APIs: Push notification services
-Data Storage: Notification state
-Is Internet Required: Yes
-If network is slow/unavailable: Late or missing notifications
+### 2. One-to-One Messaging
+- **UI:** Chat screen, message bubbles  
+- **Business Logic:** Message formatting, end-to-end encryption/decryption  
+- **Network / APIs:** Message delivery servers  
+- **Data Storage:** Message history (local storage and server backup metadata)  
+- **Internet Required:** Yes (except for viewing cached messages)  
+- **If network is slow/unavailable:** Messages remain pending or unsent  
 
-6. Status Updates
-   
-UI: Status viewer screen, progress indicators, privacy settings
-Business Logic: Status expiration (24 hours), privacy controls (who can view)
-Network / APIs: Media upload/download servers, contact synchronization services
-Data Storage: Status media files, timestamps, viewer metadata
-Is Internet Required: Yes
-If network is slow/unavailable: Status uploads may fail, viewing may be delayed or unavailable
+---
 
-7. Privacy & Security
-   
-UI: Security notifications, encryption info screens
+### 3. Voice & Video Calls
+- **UI:** Call screens, call controls (mute, speaker, video)  
+- **Business Logic:** Call setup, encryption, call state handling  
+- **Network / APIs:** Real-time communication servers  
+- **Data Storage:** Call logs (metadata only)  
+- **Internet Required:** Yes (strong and stable connection)  
+- **If network is slow/unavailable:** Call drops, poor audio/video quality  
 
-Business Logic: Encryption/decryption of messages on sender and receiver devices
+---
 
-Network / APIs: Secure message relay servers (cannot read message content)
+### 4. Media Sharing
+- **UI:** Gallery picker, preview screens  
+- **Business Logic:** Media compression, encryption  
+- **Network / APIs:** Media upload and download servers  
+- **Data Storage:** Media files (stored locally and in backups)  
+- **Internet Required:** Yes  
+- **If network is slow/unavailable:** Upload/download delays or failures  
 
-Data Storage: Encrypted messages stored on devices
+---
 
-Internet Required: Yes (for message delivery)
+### 5. Notifications
+- **UI:** Notification banners, icons, badges  
+- **Business Logic:** Message prioritization and notification triggers  
+- **Network / APIs:** Push notification services  
+- **Data Storage:** Notification state and delivery status  
+- **Internet Required:** Yes  
+- **If network is slow/unavailable:** Late or missing notifications  
 
-If network is slow/unavailable: Messages are queued and sent later
-Part C: Change and Maintainability
+---
+
+### 6. Status Updates
+- **UI:** Status viewer screen, progress indicators, privacy settings  
+- **Business Logic:** Status expiration after 24 hours, visibility controls  
+- **Network / APIs:** Media upload/download servers, contact synchronization services  
+- **Data Storage:** Status media files, timestamps, viewer metadata  
+- **Internet Required:** Yes  
+- **If network is slow/unavailable:** Status upload failures or delayed viewing  
+
+---
+
+### 7. Privacy & Security Features
+- **UI:** Security notifications, encryption information screens, privacy settings  
+- **Business Logic:** End-to-end encryption, access control rules, message decryption on devices  
+- **Network / APIs:** Secure message relay servers (cannot read message content)  
+- **Data Storage:** Encrypted messages stored on user devices  
+- **Internet Required:** Yes (for message delivery)  
+- **If network is slow/unavailable:** Messages are queued and sent when connectivity is restored  
+
+---
 
 Chosen Change:
 
