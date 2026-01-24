@@ -118,12 +118,16 @@ Chosen Change:
 
 Identify and briefly explain at least five engineering challenges involved in maintaining or improving this app:
 
-1. Requirement changes – User needs change frequently, affecting design and code.
-2. Maintainability – Poor code structure makes future updates difficult.
-3. Testing complexity – Ensuring all features work correctly is time-consuming.
-4. Performance optimization – Balancing speed and resource usage is challenging.
-5. Team coordination – Collaboration issues can slow development.
----
+1.Scalability
+A WhatsApp-like app must support millions of users sending messages simultaneously. Designing systems that scale without delays or crashes is a major engineering challenge.
+2.Real-time Communication
+Ensuring messages are delivered instantly requires reliable real-time protocols, stable network connections, and efficient handling of message synchronization across devices.
+Security and Privacy
+3.Implementing end-to-end encryption to protect user messages while still maintaining performance and usability is complex and requires careful design and testing.
+4.Maintainability and Code Complexity
+As features like voice calls, video calls, status updates, and group chats are added, the codebase becomes large and complex, making it harder to maintain and update without introducing bugs.
+5.Cross-Platform Compatibility
+The app must work consistently across different devices and operating systems (Android, iOS, web). Ensuring the same user experience and behavior on all platforms is challenging.
 ## Part E:  Group Reflection
 
 1. Complexity 
