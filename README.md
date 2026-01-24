@@ -117,14 +117,13 @@ Chosen Change:
 ## Part D: Software Construction Challenges
 
 Identify and briefly explain at least five engineering challenges involved in maintaining or improving this app:
-	1.	
-	2.	
-	3.	
-	4.	
-	5.	
 
+1. Requirement changes – User needs change frequently, affecting design and code.
+2. Maintainability – Poor code structure makes future updates difficult.
+3. Testing complexity – Ensuring all features work correctly is time-consuming.
+4. Performance optimization – Balancing speed and resource usage is challenging.
+5. Team coordination – Collaboration issues can slow development.
 ---
-
 ## Part E:  Group Reflection
 
 1. Complexity 
