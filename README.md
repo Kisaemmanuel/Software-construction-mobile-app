@@ -98,21 +98,63 @@ This section explains what happens behind the scenes for key WhatsApp features, 
 - **If network is slow/unavailable:** Messages are queued and sent when connectivity is restored
   
 ---
+## Part C: Change and Maintainability
 
-## Part C: Change and Maininability
-Chosen Change:
+### Chosen Change Scenario: Add Mobile Payments in Uganda
 
-1. Parts of the App That Would Need Changes
-	•	Which components or layers of the app would be affected?
-
-2. Existing Features That Could Break
-	•	Which current features might be impacted by this change?
-
-3. Why This Change Would Be Difficult
-	•	What makes this change challenging from a software construction perspective?
+This change involves adding a feature that allows WhatsApp users in Uganda to send and receive money using local mobile money services such as MTN Mobile Money and Airtel Money.
 
 ---
 
+### 1. Which parts of the app would need changes?
+
+**User Interface (UI):**  
+- Add a “Send Money” option within chats  
+- Screens for entering amount, confirming payment, and viewing transaction history  
+- Clear success and error messages for payment status  
+
+**Business Logic:**  
+- Rules for sending and receiving money  
+- Transaction limits and validation  
+- Handling pending, failed, and reversed payments  
+
+**Network / APIs:**  
+- Integration with mobile money service providers  
+- Real-time communication to verify payment transactions  
+
+**Data Storage:**  
+- Secure storage of transaction records  
+- Audit logs for tracking and dispute resolution  
+
+**Security Systems:**  
+- PIN or biometric authentication  
+- Fraud detection mechanisms and strong encryption  
+
+---
+
+### 2. What existing features could break?
+
+- Chat performance may slow down if payment processing affects messaging flow  
+- Poor network conditions may cause delayed or unclear payment confirmations  
+- Notifications may be delayed or duplicated, confusing users  
+- Increased security risks may expose the app to fraud or attacks  
+- User trust may be affected if payments fail or behave inconsistently  
+
+---
+
+### 3. Why would this change be difficult to implement?
+
+- WhatsApp was originally designed for messaging, not financial transactions  
+- Payments require extremely high reliability compared to normal messages  
+- Integration with local mobile money providers adds technical complexity  
+- Compliance with financial regulations is required  
+- Unstable internet connections make payment confirmation challenging  
+
+---
+
+### Summary
+
+Adding mobile payments in Uganda is a complex change because it requires major updates to the user interface, backend systems, security, and external integrations, while ensuring reliability, regulatory compliance, and user trust.
 
 ## Part D: Software Construction Challenges
 
