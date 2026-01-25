@@ -160,26 +160,29 @@ Adding mobile payments in Uganda is a complex change because it requires major u
 
 Identify and briefly explain at least five engineering challenges involved in maintaining or improving this app:
 
-1.Scalability
-A WhatsApp-like app must support millions of users sending messages simultaneously. Designing systems that scale without delays or crashes is a major engineering challenge.
-2.Real-time Communication
-Ensuring messages are delivered instantly requires reliable real-time protocols, stable network connections, and efficient handling of message synchronization across devices.
-Security and Privacy
-3.Implementing end-to-end encryption to protect user messages while still maintaining performance and usability is complex and requires careful design and testing.
-4.Maintainability and Code Complexity
-As features like voice calls, video calls, status updates, and group chats are added, the codebase becomes large and complex, making it harder to maintain and update without introducing bugs.
-5.Cross-Platform Compatibility
-The app must work consistently across different devices and operating systems (Android, iOS, web). Ensuring the same user experience and behavior on all platforms is challenging.
+1. Scalability
+- An app like WhatsApp app must support millions of users sending messages simultaneously. Designing systems that scale without delays or crashes is a major engineering challenge.
+2. Real-time Communication
+- Ensuring messages are delivered instantly requires reliable real-time protocols, stable network connections, and efficient handling of message synchronization across devices.
+3. Security and Privacy
+- Implementing end-to-end encryption to protect user messages while still maintaining performance and usability is complex and requires careful design and testing.
+4. Maintainability and Code Complexity
+- As features like voice calls, video calls, status updates, and group chats are added, the codebase becomes large and complex, making it harder to maintain and update without introducing bugs.
+5. Cross-Platform Compatibility
+- The app must work consistently across different devices and operating systems (Android, iOS, web). Ensuring the same user experience and behavior on all platforms is challenging.
+
 ## Part E:  Group Reflection
 
-1. Complexity 
 	•	What surprised the group most about the complexity behind this app?
-
-2. Software Quality 
+- What surprised our group most was how much effort is required to support everyday actions that users take for granted. While analyzing features such as messaging, media sharing, and status updates, we realized that each action depends on multiple components working together, including user interfaces, network communication, data storage, and handling unreliable internet connections. 
+- Our discussion made it clear that the app must constantly manage delays, retries, synchronization, and security while still appearing fast and simple to the user. This showed us that simplicity in user experience is the result of significant complexity behind the scenes.
 	•	Why is writing “working code” not enough for software systems of this scale?
+- Through this assignment, our group understood that writing code that works is only a small part of building large software systems. While reasoning about changes such as adding mobile payments and supporting millions of users, we saw that software must be designed to handle growth, change, and unexpected conditions. 
+- Working code that is not well-structured can become difficult to modify, test, or secure over time. For an app like WhatsApp, even a small change can affect multiple features, which explains why maintainability, scalability, and reliability are just as important as code correctness.
 
-3. Teamwork 
 	•	What did the group learn about teamwork from this exercise?
+- As we discussed different parts of the app, each member contributed unique insights, such as identifying core features, thinking about backend behavior, or considering risks and challenges. 
+- By comparing perspectives and refining our answers together, we were able to produce clearer and more balanced reasoning. This experience showed us that building and analyzing software systems is not an individual task, but a collaborative process that benefits from shared thinking and clear communication.
 
 ## Group Contributions
 - KISA EMMANUEL: Coordination and app overview
