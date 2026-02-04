@@ -15,7 +15,7 @@ It serves as an alternative to traditional communication methods such as **SMS a
 By using internet connectivity, WhatsApp enables real-time messaging, calling, and media sharing at a much lower cost.
 
 #### Who are the primary users of the app?
-The primary users of WhatsApp include:
+According to Statista, Whatsapp had about 3 billion users as of March 2025, these mainly include:
 - Friends and families
 - Groups such as students, communities, and work teams
 - Small and medium-sized businesses communicating with customers
