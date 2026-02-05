@@ -1,4 +1,4 @@
-# Software Construction – Code Review & AI Support
+# Understanding Software Construction and Collaboration Assignment
 ## Question 1: Difference between programming and software construction (with a real-world example)
 
 Programming is the act of writing code so that a computer performs a specific task.  
@@ -35,24 +35,43 @@ A software constructor writes code that:
 - Fits into a larger system design
 
 ## Question 3: Why version control is critical in team based software development
+
 Modern software is rarely built by one person therefore developers need professional tools such as Github, to work on the same project. Here's why version control is critical; 
 - Enables teamwork: Version control lets multiple developers work on the same project, track changes over time, and maintain accountability and quality.  
 - Provides full history and traceability: A repository stores the code, documentation, and the entire history of changes, acting like a shared project notebook.  ￼
 - Supports safe workflows: Developers work in isolated spaces (branches), record changes, and merge only after review, which helps avoid conflicts and maintain stability.  ￼
 - Improves quality and reduces errors: Projects become traceable, reviewable, and improvable, which reduces mistakes and improves teamwork.
 
-## Question 4: Importance of Code Reviews
 
-Code reviews help improve software quality and developer skills by allowing team members to examine code before it is merged.
+## Question 4a) : How Code Reviews Improve Software Quality and Developer Skills.
 
-### Benefits
-- Detect bugs and security issues early
-- Enforce coding standards and consistency
-- Improve code readability and maintainability
-- Encourage knowledge sharing within the team
-- Help developers learn through constructive feedback
+### Early Bug Detection
+Another set of eyes catches logic errors, edge cases, security flaws, and performance issues before the code reaches production. Fixing bugs at this stage is cheaper and safer than fixing them later.
 
-Code reviews lead to reliable software and stronger development teams.
+### Improved Code Readability and Maintainability
+Reviewers often point out unclear variable names, complex logic, or poor structure. This leads to cleaner, more readable code that is easier for anyone on the team to understand and maintain.
+
+### Consistency and Standards Enforcement
+Code reviews help ensure everyone follows agreed coding standards, design patterns, and architectural decisions. This consistency reduces technical debt and makes the codebase more predictable.
+
+### Better Design Decisions
+Reviewers can question design choices and suggest simpler or more scalable approaches. This helps prevent overengineering and encourages well-thought-out solutions.
+
+---
+
+## b) How Code Reviews Improve Developer Skills
+
+### Learning from Feedback
+When developers receive constructive comments, they learn better ways to write code, handle edge cases, and apply best practices. Over time, this directly improves their coding skills.
+
+### Exposure to Different Approaches
+Reading other people’s code exposes developers to new techniques, libraries, and problem-solving styles. This broadens their thinking and improves adaptability.
+
+### Improved Communication Skills
+Explaining code during a review and discussing changes helps developers learn how to justify design decisions and communicate technical ideas clearly.
+
+### Reinforcement of Best Practices
+Repeated exposure to standards, design patterns, and clean code principles during reviews helps developers internalize them and apply them naturally in future work.
 
 ---
 
