@@ -6,7 +6,7 @@ It focuses mainly on making the code work.
 
 Software construction is much broader. It includes writing code, but also thinking about how the software is designed, organized, tested, documented, maintained, and improved over time by a team. It focuses on making the software reliable, changeable, and understandable for others.
 
----
+
 
 ### Real-world example: Building a house
 
@@ -22,7 +22,7 @@ But without a plan, the house may be:
 - Unsafe
 - Difficult for others to continue building
 
----
+
 
 ### Apply this to software
 
