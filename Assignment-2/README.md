@@ -33,6 +33,12 @@ A software constructor writes code that:
 - Can be easily changed in the future
 - Is tested and documented
 - Fits into a larger system design
+## Question 2 : Situation where poor maintainability causes serious problems
+
+Consider a hospital patient management system that was built years ago with little documentation, unclear code structure, and no tests. When new regulations require system updates, developers struggle to understand the code. Small changes introduce bugs, causing errors in patient records and medication schedules.
+
+This can lead to patient safety risks, system downtime, legal penalties, and high maintenance costs.
+The situation shows that poorly maintainable software can become dangerous and expensive, even if it initially worked.
 
 ## Question 3: Why version control is critical in team based software development
 
