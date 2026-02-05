@@ -45,22 +45,22 @@ Modern software is rarely built by one person therefore developers need professi
 
 ## Question 4a) : How Code Reviews Improve Software Quality and Developer Skills.
 
-### Early Bug Detection
+### Early Bug Detection:
 Another set of eyes catches logic errors, edge cases, security flaws, and performance issues before the code reaches production. Fixing bugs at this stage is cheaper and safer than fixing them later.
-### Improved Code Readability and Maintainability
+### Improved Code Readability and Maintainability:
 Reviewers often point out unclear variable names, complex logic, or poor structure. This leads to cleaner, more readable code that is easier for anyone on the team to understand and maintain.
-### Consistency and Standards Enforcement
+### Consistency and Standards Enforcement:
 Code reviews help ensure everyone follows agreed coding standards, design patterns, and architectural decisions. This consistency reduces technical debt and makes the codebase more predictable.
-### Better Design Decisions
-Reviewers can question design choices and suggest simpler or more scalable approaches. This helps prevent overengineering and encourages well-thought-out solutions.
+### Better Design Decisions:
+Reviewers can question design choices and suggest simpler or more scalable approaches.
 
 ## b) How Code Reviews Improve Developer Skills
 
-### Learning from Feedback
+### Learning from Feedback:
 When developers receive constructive comments, they learn better ways to write code, handle edge cases, and apply best practices. Over time, this directly improves their coding skills.
-### Exposure to Different Approaches
+### Exposure to Different Approaches:
 Reading other people’s code exposes developers to new techniques, libraries, and problem-solving styles. This broadens their thinking and improves adaptability.
-### Improved Communication Skills
+### Improved Communication Skills:
 Explaining code during a review and discussing changes helps developers learn how to justify design decisions and communicate technical ideas clearly.
 
 ## Question 5: Role of AI in Understanding Code
@@ -77,5 +77,3 @@ AI tools assist developers in understanding and working with code but do not rep
 - Developers must understand concepts, not just results
 - Critical thinking and problem-solving are human skills
 - AI may lack full project context
-
-AI is a support tool, while learning and practice build real expertise.
