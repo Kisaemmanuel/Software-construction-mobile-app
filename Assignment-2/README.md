@@ -1,4 +1,38 @@
 # Software Construction – Code Review & AI Support
+## Question 1: Difference between programming and software construction (with a real-world example)
+
+Programming is the act of writing code so that a computer performs a specific task.  
+It focuses mainly on making the code work.
+
+Software construction is much broader. It includes writing code, but also thinking about how the software is designed, organized, tested, documented, maintained, and improved over time by a team. It focuses on making the software reliable, changeable, and understandable for others.
+
+---
+
+### Real-world example: Building a house
+
+Programming is like laying bricks to build a wall.  
+You are doing the physical work that makes the structure stand.
+
+Software construction is like planning the house, drawing the blueprint, choosing materials, organizing workers, ensuring plumbing and electricity work together, and making sure the house can be renovated later.
+
+A person laying bricks may build a wall that stands today.  
+But without a plan, the house may be:
+
+- Hard to modify
+- Unsafe
+- Difficult for others to continue building
+
+---
+
+### Apply this to software
+
+A programmer may write code that works today.  
+A software constructor writes code that:
+
+- Other team members can understand
+- Can be easily changed in the future
+- Is tested and documented
+- Fits into a larger system design
 
 ## Question 3: Why version control is critical in team based software development
 Modern software is rarely built by one person therefore developers need professional tools such as Github, to work on the same project. Here's why version control is critical; 
