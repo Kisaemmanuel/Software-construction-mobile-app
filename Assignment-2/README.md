@@ -42,7 +42,7 @@ The situation shows that poorly maintainable software can become dangerous and e
 
 ## Question 3: Why version control is critical in team based software development
 
-Modern software is rarely built by one person therefore developers need professional tools such as Github, to work on the same project. Here's why version control is critical; 
+Modern software is rarely built by one person therefore developers need professional tools such as Git, to work on the same project. Here's why version control is critical; 
 - Enables teamwork: Version control lets multiple developers work on the same project, track changes over time, and maintain accountability and quality.  
 - Provides full history and traceability: A repository stores the code, documentation, and the entire history of changes, acting like a shared project notebook.  ￼
 - Supports safe workflows: Developers work in isolated spaces (branches), record changes, and merge only after review, which helps avoid conflicts and maintain stability.  ￼
