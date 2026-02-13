@@ -32,7 +32,7 @@ Key features provided by WhatsApp include:
 - Privacy and security features such as:
   - End-to-end encryption
   - Two-step verification
-  - Privacy controls (e.g., hiding last seen and profile visibility)
+  - Privacy controls (e.g hiding last seen and profile visibility)
 
 ---
 
