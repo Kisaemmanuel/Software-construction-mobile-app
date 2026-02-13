@@ -49,6 +49,7 @@ Modern software is rarely built by one person therefore developers need professi
 - Improves quality and reduces errors: Projects become traceable, reviewable, and improvable, which reduces mistakes and improves teamwork.
 
 
+
 ## Question 4a) : How Code Reviews Improve Software Quality and Developer Skills.
 
 ### Early Bug Detection:
